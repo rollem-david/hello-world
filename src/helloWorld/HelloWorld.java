@@ -8,6 +8,10 @@ public class HelloWorld {
 		
 		tester.printMessage("This is a test");
 		tester.printMessage("Hello World test");
+		
+		AwsRDSConnectionTest rdbmsConnection = new AwsRDSConnectionTest();
+		rdbmsConnection.getConnection();
+		
 	}
 	
 	private void printMessage(String inputMessage) {
