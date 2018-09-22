@@ -4,7 +4,14 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello World");
+		HelloWorld tester = new HelloWorld();
+		
+		tester.printMessage("This is a test");
+		tester.printMessage("Hello World test");
+	}
+	
+	private void printMessage(String inputMessage) {
+		System.out.println(inputMessage);
 	}
 
 }
